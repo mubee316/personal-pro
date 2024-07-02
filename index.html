@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+      <span>  <p data-testid="slackDisplayName">Mubarak</p></span>
+        <div class="header2">
+          <button id="scrollAbout">About</button>
+          <button id="scrollVision">Goals & Vision</button>
+          <button id="scrollContact">Contact</button>
+            <div data-testid="currentDay" id="day"></div>
+       <p id="digital" data-testid="currentTimeUTC">00:00:00</p>
+       
+        </div>
+      </nav>
+    </header>
+
+    <main class="body-content">
+      <div class="image" data-testid="slackProfileImage">
+        <img src="./new work2.png" alt="" natural-width natural-height />
+      </div>
+      <div class="testing">
+        <div class="text">
+          Hello I'm <br /><span style="font-size: 3rem">Mubarak Olalekan</span>
+          <main style="font-size: 1.5rem">Frontend Developer</main>
+        </div>
+        <br />
+        <div><button id="scrollInfo">Contact Info</button></div>
+      </div>
+    </main>
+    <div class="about">
+      <h2 id="targetAbout">About</h2>
+      <p>
+        Hello, I'm Mubarak Olalekan, a frontend developer skilled in HTML, CSS,
+        JavaScript, React, and more. I'm continuously learning and improving
+        myself, developing more skills to excel in what I do. In addition to my
+        passion for web development, I'm a dedicated sportsman, with a
+        particular love for football. Currently, I am pursuing a degree in Cyber
+        Security at Ladoke Akintola University.
+      </p>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid1">
+        <h2 id="targetContact">Contact Information</h2>
+        <ul class="slack">
+          <br />
+          <li
+            style="
+              font-size: 20px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+            "
+          >
+            Slack Info
+          </li>
+          <img
+            src="./icons8-slack-new-32.png"
+            alt="slack-icon"
+            style="width: 20px; height: 20px"
+          />
+        </ul>
+        <ol>
+          <li data-testid="slackDisplayName">Slack Name: Mubarak</li>
+          <li data-testid="slackEmail">
+            Slack Email: mubarakolalekan316@gmail.com
+          </li>
+        </ol>
+        <ul class="github">
+          <li
+            style="
+              font-size: 20px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+            "
+          >
+            Github Info
+          </li>
+          <img
+            src="./icons8-github-32.png"
+            alt="Github-icon"
+            style="width: 20px"
+          />
+        </ul>
+        <ol>
+          <li data-testid="GithubDisplayName">Github Name: mubee316</li>
+        </ol>
+        <ul class="github">
+          <li
+            style="
+              font-size: 20px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+            "
+          >
+            Linkedin Info
+          </li>
+          <img
+            src="./icons8-linkedin-logo-50.png"
+            alt="Github-icon"
+            style="width: 20px"
+          />
+        </ul>
+        <ol>
+          <li data-testid="GithubDisplayName">
+            Linkedin Name: Mubarak Olalekan
+          </li>
+        </ol>
+      </div>
+      <div class="grid2">
+        <p>
+          Are you looking to improve your coding skills and work on real-world
+          projects? I have the perfect resources for you! For more information,
+          <br />
+          check out the links below:
+        </p>
+        <ul>
+          <li><a href="http://hng.tech/learn">HNG</a></li>
+          <li><a href="http://keyword.dog/">Keyword Dog</a></li>
+          <li><a href="http://scrapeanyweb.site/">Scrape Any Web</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="goals" id="targetVision">
+      <h2>Goals and Vision</h2>
+      <p>
+        Within the next two years, I plan to elevate my coding skills to a
+        higher level. My goal is not only to enhance my technical abilities but
+        also to improve my communication and leadership skills. I believe that
+        no one is an island of knowledge, and in the tech world, everything
+        evolves rapidly. By connecting with great minds and deepening my
+        understanding of programming concepts, I aim to excel. Additionally, I
+        am working towards my goal of becoming a cyber security analyst.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
